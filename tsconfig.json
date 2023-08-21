@@ -1,0 +1,13 @@
+{
+    "ts-node": {
+        "transpileOnly": true
+    },
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "target": "ES5",
+        "allowJs": true,
+        "module": "commonjs"
+    }
+}

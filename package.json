@@ -1,0 +1,23 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack build --mode production",
+    "build-dev": "webpack build --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "uglify-js": "^3.17.4",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack": "^5.88.2"
+  }
+}
